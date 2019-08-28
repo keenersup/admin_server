@@ -1,0 +1,16 @@
+export const {
+  DB_USERNAME,
+  DB_PASSWORD,
+  DB_HOST,
+  DB_PORT,
+  DB_NAME,
+  SECRET_KEY,
+  ACCESSTOKEN_EXPIRED,
+  REFRESH_SECRET_KEY,
+  REFRESHTOKEN_EXPIRED,
+  REACT_CLIENT_ADDRESS,
+  REACT_CLIENT_PORT,
+  SERVER_PORT,
+} = process.env
+
+export const IN_PROD = process.env.NODE_ENV === 'production'
